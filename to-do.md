@@ -1,5 +1,5 @@
 Primary Goals:
-    - Create DB
+    <!-- - Create DB
         - Three Tables
             - Department
                 - id INT PRIMARY KEY
@@ -14,7 +14,7 @@ Primary Goals:
                 - first_name VARCHAR(30)
                 - last_name VARCHAR(30)
                 - role_id INT
-                - manager_id INT
+                - manager_id INT -->
         - Populate tables with data for testing
     - Create inquirer prompts
         - ability to add
