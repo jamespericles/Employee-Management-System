@@ -41,8 +41,7 @@ function renderTable() {***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-      choice: 
-      [
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
@@ -55,7 +54,7 @@ function renderTable() {***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-        "Exit."
+***REMOVED***
 ***REMOVED***
   ***REMOVED***)
 ***REMOVED***
@@ -114,80 +113,59 @@ function renderTable() {***REMOVED***
     ***REMOVED***
   ***REMOVED***);
 
-// Logic for adding a department
+  // Logic for adding a department
 ***REMOVED***
   ***REMOVED***
+      .prompt(
+***REMOVED***
+          name: "id",
   ***REMOVED***
-        name: "id",
-***REMOVED***
-        message: "What is the id of the department you are adding?",
-        validate: validatePhoneNumber,
-    ***REMOVED***,{
-***REMOVED***
-***REMOVED***
-        message: "What is the name of the department you would like to add?"
-    ***REMOVED***)
-      .then(function(answers){
-***REMOVED***"INSERT INTO departments(id,name) VALUES WHERE ?",
-***REMOVED***
-          id: answers.id,
-          name: answers.department
+          message: "What is the id of the department you are adding?",
+          validate: validatePhoneNumber,
       ***REMOVED***,
-        function(err) {
-        ***REMOVED***
-        ***REMOVED***"Data appended successfully")
-          // Return to the beginning
-        ***REMOVED***
+***REMOVED***
+  ***REMOVED***
+  ***REMOVED***
+  ***REMOVED***
       ***REMOVED***
-    ***REMOVED***
-    ***REMOVED***)
-***REMOVED***;
-    
+  ***REMOVED***
+***REMOVED***
+***REMOVED***
+          "INSERT INTO departments(id,name) VALUES(id,name) ?",
+***REMOVED***
+            id: answers.id,
+            name: answers.department,
+        ***REMOVED***,
+***REMOVED***
+          ***REMOVED***
+          ***REMOVED***"Data appended successfully");
+***REMOVED***
+          ***REMOVED***
+        ***REMOVED***
+    ***REMOVED***;
+    ***REMOVED***);
 ***REMOVED***
 
-***REMOVED***;
-          
-***REMOVED***
-    
-***REMOVED***;
-      
-***REMOVED***
+***REMOVED******REMOVED***
 
-***REMOVED***;
-    
-***REMOVED***
+***REMOVED******REMOVED***
 
-***REMOVED***;
-        
-***REMOVED***
+***REMOVED******REMOVED***
 
-***REMOVED***;
-    
-***REMOVED***
+***REMOVED******REMOVED***
 
-***REMOVED***;
-        
-***REMOVED***
+***REMOVED******REMOVED***
 
-***REMOVED***;
-***REMOVED***
+***REMOVED******REMOVED***
 
-***REMOVED***;
+***REMOVED******REMOVED***
+***REMOVED******REMOVED***
 
-***REMOVED***
+***REMOVED******REMOVED***
 
-***REMOVED***;
+***REMOVED******REMOVED***
 
-  function deleteRole( {
+***REMOVED******REMOVED***
 
-***REMOVED***);
-        
-***REMOVED***
-
-***REMOVED***;
-  
-  function exit() {
-
-***REMOVED***;
-
+  function exit() {***REMOVED***
 ***REMOVED***
