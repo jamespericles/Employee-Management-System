@@ -106,4 +106,4 @@ dist
 #Files
 Assets/
 Instructions.md
-db.env
+.env
