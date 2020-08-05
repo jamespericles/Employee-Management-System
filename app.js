@@ -1,14 +1,17 @@
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-const dotenv = ***REMOVED***
+***REMOVED***
 ***REMOVED***
 
 // Function to validate for phone numbers
 const validatePhoneNumber = async (input) => {
 ***REMOVED***
-    return "Please input a number, or press return to skip (this is appended to the license)";
 ***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+
 ***REMOVED***
 ***REMOVED***
 
@@ -20,20 +23,17 @@ const validatePhoneNumber = async (input) => {
 
 ***REMOVED***
 ***REMOVED***
-
-***REMOVED***
-***REMOVED***
 ***REMOVED***
 ***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
-  renderTable();
+  // renderTable();
 ***REMOVED***
 ***REMOVED***
 
 // Render table using console.table
-function renderTable() {***REMOVED***
+// function renderTable() {***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -122,11 +122,11 @@ function renderTable() {***REMOVED***
 ***REMOVED***
 ***REMOVED***
     ***REMOVED***)
+  ***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-            name: answers.department,
         ***REMOVED***,
 ***REMOVED***
           ***REMOVED***
