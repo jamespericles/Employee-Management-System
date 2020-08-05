@@ -19,7 +19,7 @@ const validateNumber = async (input) => {
 // Function to validate for phone numbers
 const validatePhoneNumber = async (input) => {
   if (isNaN(input) == true) {
-    return "Please input a number, or press return to skip (this is appended to the license)";
+    return "Please input a number.";
   }
   return true;
 };
