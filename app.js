@@ -1,6 +1,7 @@
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
+const dotenv = ***REMOVED***
 ***REMOVED***
 
 // Function to validate for phone numbers
@@ -12,17 +13,17 @@ const validatePhoneNumber = async (input) => {
 ***REMOVED***
 
 ***REMOVED***
-  host: "localhost",
+***REMOVED***
 
 ***REMOVED***
-  port: 3306,
+***REMOVED***
 
 ***REMOVED***
-  user: "root",
+***REMOVED***
 
 ***REMOVED***
-  password: "",
-  database: "employee_trackerDB",
+***REMOVED***
+***REMOVED***
 ***REMOVED***
 
 ***REMOVED***
@@ -116,24 +117,15 @@ function renderTable() {***REMOVED***
   // Logic for adding a department
 ***REMOVED***
   ***REMOVED***
-      .prompt(
-***REMOVED***
-          name: "id",
-  ***REMOVED***
-          message: "What is the id of the department you are adding?",
-          validate: validatePhoneNumber,
-      ***REMOVED***,
-***REMOVED***
-  ***REMOVED***
-  ***REMOVED***
-  ***REMOVED***
-      ***REMOVED***
   ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-          "INSERT INTO departments(id,name) VALUES(id,name) ?",
 ***REMOVED***
-            id: answers.id,
+    ***REMOVED***)
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
             name: answers.department,
         ***REMOVED***,
 ***REMOVED***

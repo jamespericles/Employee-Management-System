@@ -105,4 +105,5 @@ dist
 
 #Files
 Assets/
-Instructions.md 
+Instructions.md
+db.env
