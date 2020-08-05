@@ -16,6 +16,14 @@ const validateNumber = async (input) => {
   return true;
 };
 
+// Function to validate for phone numbers
+const validatePhoneNumber = async (input) => {
+  if (isNaN(input) == true) {
+    return "Please input a number, or press return to skip (this is appended to the license)";
+  }
+  return true;
+};
+
 let connection = mysql.createConnection({
   multipleStatements: true,
 
