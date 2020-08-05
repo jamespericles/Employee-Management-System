@@ -1,7 +1,7 @@
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-const { allowedNodeEnvironmentFlags ***REMOVED*** = require("process");
+***REMOVED***
 
 // Function to validate for phone numbers
 const validatePhoneNumber = async (input) => {
@@ -55,7 +55,7 @@ function renderTable() {***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-        
+        "Exit."
 ***REMOVED***
   ***REMOVED***)
 ***REMOVED***
@@ -106,6 +106,10 @@ function renderTable() {***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
+***REMOVED***
+
+***REMOVED***
+          exit();
 ***REMOVED***
     ***REMOVED***
   ***REMOVED***);
@@ -182,4 +186,8 @@ function renderTable() {***REMOVED***
 
 ***REMOVED***;
   
+  function exit() {
+
+***REMOVED***;
+
 ***REMOVED***
