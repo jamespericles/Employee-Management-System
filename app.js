@@ -180,7 +180,9 @@ function renderTable() {
 ***REMOVED***
 
 ***REMOVED***
-***REMOVED***"SELECT * FROM role", function (results) {
+***REMOVED***"SELECT * FROM role", function (err, results) {
+    ***REMOVED***
+    ***REMOVED***results);
     ***REMOVED***
   ***REMOVED***
 ***REMOVED***

@@ -1,0 +1,20 @@
+{
+  "name": "Week-12",
+  "version": "1.0.0",
+  "description": "--- ## Table of Contents --- ### [Description](#Description) ### [Screenshots](#Screenshots) ### [Installation](#Installation) ### [Usage](#Usage) ### [License](#License) ### [Contributing](#Contributing) ### [Tests](#Tests) ### [Questions](#Questions) ### [Github](#Github) --- ### <a name=\"Description\"></a>Description WIP ### <a name=\"Screenshots\"></a>Screenshots WIP ### <a name=\"Installation\"></a>Installation WIP ### <a name=\"Usage\"></a>Usage WIP ### <a name=\"License\"></a>License MIT License",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+***REMOVED***,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamespericles/Employee-Management-System.git"
+***REMOVED***,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamespericles/Employee-Management-System/issues"
+***REMOVED***,
+  "homepage": "https://github.com/jamespericles/Employee-Management-System#readme"
+***REMOVED***
