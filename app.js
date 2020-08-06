@@ -182,7 +182,7 @@ function renderTable() {
 ***REMOVED***
 ***REMOVED***"SELECT * FROM role", function (results) {
     ***REMOVED***
-        .prompt(
+  ***REMOVED***
 ***REMOVED***
 ***REMOVED***
     ***REMOVED***
@@ -197,10 +197,13 @@ function renderTable() {
   ***REMOVED***
       ***REMOVED***
 ***REMOVED***
-  ***REMOVED*** results.map((result) => result.name),
-        ***REMOVED***
-    ***REMOVED***
+***REMOVED***
+        ***REMOVED***,
   ***REMOVED***
+  ***REMOVED***
+***REMOVED***
+***REMOVED***
+      ***REMOVED***[0].id;
   ***REMOVED***
 ***REMOVED***
   ***REMOVED***
