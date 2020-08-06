@@ -15,9 +15,9 @@
   "license": "MIT",
   "dependencies": {
     "inquirer": "^6.2.1",
-    "mysql": "",
-    "console.table": "",
-    "dotenv": ""
+    "mysql": "^2.18.1",
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0"
 ***REMOVED***,
   "bugs": {
     "url": "https://github.com/jamespericles/Employee-Management-System/issues"
