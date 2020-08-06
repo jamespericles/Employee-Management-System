@@ -4,8 +4,8 @@
 ***REMOVED***
 ***REMOVED***
 
-// Function to validate for phone numbers
-const validatePhoneNumber = async (input) => {
+***REMOVED***
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
@@ -141,45 +141,62 @@ const validatePhoneNumber = async (input) => {
 
 ***REMOVED***
   ***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
   ***REMOVED***
-        name: 
-    ***REMOVED***)
+***REMOVED***
+      ***REMOVED***,
+***REMOVED***
+***REMOVED***
+  ***REMOVED***
+***REMOVED***
+***REMOVED***
+      ***REMOVED***,
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+        ***REMOVED***,
+***REMOVED***
+          ***REMOVED***
+          ***REMOVED***"Data appended successfully");
+***REMOVED***
+          ***REMOVED***
+        ***REMOVED***
+    ***REMOVED***;
+    ***REMOVED***);
 ***REMOVED***
 
 ***REMOVED***
   ***REMOVED***
       .prompt(
 ***REMOVED***
-        name: "firstName",
-***REMOVED***
-        message: "What is the first name of the employee?",
-      ***REMOVED***,
-***REMOVED***
-        name: "lastName",
-***REMOVED***
-        message: "What is the last name of the employee?",
-      ***REMOVED***,
-***REMOVED***
-        name: "roleID",
+          name: "firstName",
   ***REMOVED***
-        message: "What is the employee's role?",
-        choices: 
-        [
-          ""
-        ]  
+          message: "What is the first name of the employee?",
+      ***REMOVED***,
+***REMOVED***
+          name: "lastName",
+  ***REMOVED***
+          message: "What is the last name of the employee?",
+      ***REMOVED***,
+***REMOVED***
+          name: "roleID",
+    ***REMOVED***
+          message: "What is the employee's role?",
+    ***REMOVED***""],
       ***REMOVED***
   ***REMOVED***
-      .then(function(answers){
 ***REMOVED***
-          "INSERT INTO employee SET ?",
-***REMOVED***
-            first_name: answers.firstName,
-            last_name: answers.lastName,
-
-
-        ***REMOVED***
-    ***REMOVED***
-    ***REMOVED***)
+***REMOVED***"INSERT INTO employee SET ?", {
+          first_name: answers.firstName,
+          last_name: answers.lastName,
+      ***REMOVED***);
+    ***REMOVED***);
 ***REMOVED***
 
 ***REMOVED******REMOVED***
@@ -200,7 +217,5 @@ const validatePhoneNumber = async (input) => {
 
 ***REMOVED******REMOVED***
 
-  function exit() {
-    
-***REMOVED***
+  function exit() {***REMOVED***
 ***REMOVED***
