@@ -16,8 +16,8 @@ const validateNumber = async (input) => {
   return true;
 };
 
-// Function to validate for phone numbers
-const validatePhoneNumber = async (input) => {
+// Function to validate for salaries
+const validateNumber = async (input) => {
   if (isNaN(input) == true) {
     return "Please input a number.";
   }
