@@ -29,12 +29,20 @@
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***"connected as id " + connection.threadId + "\n");
-  // renderTable();
+  renderTable();
 ***REMOVED***
 ***REMOVED***
 
 // Render table using console.table
-// function renderTable() {***REMOVED***
+function renderTable() {
+  let id = "";
+  let first_name = "";
+  let last_name = "";
+  let title = "";
+  let department = "";
+  let salary = "";
+  let manager = "";
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -185,7 +193,7 @@
           message: "What is the last name of the employee?",
       ***REMOVED***,
 ***REMOVED***
-          name: "roleID",
+***REMOVED***
     ***REMOVED***
           message: "What is the employee's role?",
     ***REMOVED***""],
