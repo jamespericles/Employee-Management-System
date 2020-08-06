@@ -34,15 +34,7 @@
 ***REMOVED***
 
 // Render table using console.table
-function renderTable() {
-  let id = "";
-  let first_name = "";
-  let last_name = "";
-  let title = "";
-  let department = "";
-  let salary = "";
-  let manager = "";
-***REMOVED***
+function renderTable() {***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -182,7 +174,6 @@ function renderTable() {
 ***REMOVED***
 ***REMOVED***"SELECT * FROM role", function (err, results) {
     ***REMOVED***
-    ***REMOVED***results);
     ***REMOVED***
   ***REMOVED***
 ***REMOVED***
