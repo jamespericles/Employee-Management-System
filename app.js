@@ -34,7 +34,13 @@
 ***REMOVED***
 
 // Render table using console.table
-function renderTable() {***REMOVED***
+async function renderTable() {
+  connection.query("SELECT * FROM employee", function (err, results) {
+  ***REMOVED***
+  ***REMOVED***"\n");
+    console.table(results.first_name);
+***REMOVED***);
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
