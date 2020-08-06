@@ -63,7 +63,6 @@ async function renderTable() {
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-***REMOVED***
   ***REMOVED***)
 ***REMOVED***
 ***REMOVED***
@@ -113,10 +112,6 @@ async function renderTable() {
 
 ***REMOVED***
 ***REMOVED***
-***REMOVED***
-
-***REMOVED***
-          exit();
 ***REMOVED***
     ***REMOVED***
   ***REMOVED***);
