@@ -28,6 +28,7 @@ const validatePhoneNumber = async (input) => {
 
 ***REMOVED***
 ***REMOVED***
+***REMOVED***"connected as id " + connection.threadId + "\n");
   // renderTable();
 ***REMOVED***
 ***REMOVED***
@@ -138,7 +139,48 @@ const validatePhoneNumber = async (input) => {
     ***REMOVED***);
 ***REMOVED***
 
-***REMOVED******REMOVED***
+***REMOVED***
+  ***REMOVED***
+  ***REMOVED***
+        name: 
+    ***REMOVED***)
+***REMOVED***
+
+***REMOVED***
+  ***REMOVED***
+      .prompt(
+***REMOVED***
+        name: "firstName",
+***REMOVED***
+        message: "What is the first name of the employee?",
+      ***REMOVED***,
+***REMOVED***
+        name: "lastName",
+***REMOVED***
+        message: "What is the last name of the employee?",
+      ***REMOVED***,
+***REMOVED***
+        name: "roleID",
+  ***REMOVED***
+        message: "What is the employee's role?",
+        choices: 
+        [
+          ""
+        ]  
+      ***REMOVED***
+  ***REMOVED***
+      .then(function(answers){
+***REMOVED***
+          "INSERT INTO employee SET ?",
+***REMOVED***
+            first_name: answers.firstName,
+            last_name: answers.lastName,
+
+
+        ***REMOVED***
+    ***REMOVED***
+    ***REMOVED***)
+***REMOVED***
 
 ***REMOVED******REMOVED***
 
@@ -151,7 +193,6 @@ const validatePhoneNumber = async (input) => {
 ***REMOVED******REMOVED***
 
 ***REMOVED******REMOVED***
-***REMOVED******REMOVED***
 
 ***REMOVED******REMOVED***
 
@@ -159,5 +200,7 @@ const validatePhoneNumber = async (input) => {
 
 ***REMOVED******REMOVED***
 
-  function exit() {***REMOVED***
+  function exit() {
+    
+***REMOVED***
 ***REMOVED***
