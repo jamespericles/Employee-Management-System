@@ -180,31 +180,43 @@ function renderTable() {
 ***REMOVED***
 
 ***REMOVED***
-  ***REMOVED***
-      .prompt(
-***REMOVED***
-          name: "firstName",
-  ***REMOVED***
-          message: "What is the first name of the employee?",
-      ***REMOVED***,
-***REMOVED***
-          name: "lastName",
-  ***REMOVED***
-          message: "What is the last name of the employee?",
-      ***REMOVED***,
+***REMOVED***"SELECT * FROM role", function (results) {
+    ***REMOVED***
+        .prompt(
 ***REMOVED***
 ***REMOVED***
     ***REMOVED***
-          message: "What is the employee's role?",
-    ***REMOVED***""],
+***REMOVED***
+        ***REMOVED***,
+***REMOVED***
+***REMOVED***
+    ***REMOVED***
+***REMOVED***
+        ***REMOVED***,
+***REMOVED***
+  ***REMOVED***
       ***REMOVED***
+***REMOVED***
+  ***REMOVED*** results.map((result) => result.name),
+        ***REMOVED***
+    ***REMOVED***
+  ***REMOVED***
   ***REMOVED***
 ***REMOVED***
-***REMOVED***"INSERT INTO employee SET ?", {
-          first_name: answers.firstName,
-          last_name: answers.lastName,
+  ***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+          ***REMOVED***,
+  ***REMOVED***
+            ***REMOVED***
+            ***REMOVED***"Data appended successfully");
+  ***REMOVED***
+            ***REMOVED***
+          ***REMOVED***
+      ***REMOVED***;
       ***REMOVED***);
-    ***REMOVED***);
+  ***REMOVED***);
 ***REMOVED***
 
 ***REMOVED******REMOVED***
