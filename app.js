@@ -265,26 +265,62 @@
 
 ***REMOVED***
 ***REMOVED***
-      "SELECT * FROM departments, employee, role",
-***REMOVED***
-      ***REMOVED***
-      ***REMOVED***
-      ***REMOVED***
     ***REMOVED***
-      ***REMOVED***
-            message: "Which department budget would you like to view?",
-  ***REMOVED*** results.map((result) => result.name),
-        ***REMOVED***)
+    ***REMOVED***
+    ***REMOVED***
   ***REMOVED***
-    ***REMOVED***``);
-        ***REMOVED***);
     ***REMOVED***
-***REMOVED***;
+          message: "Which department budget would you like to view?",
+***REMOVED*** results.map((result) => result.name),
+      ***REMOVED***)
+***REMOVED***
+  ***REMOVED***`SELECT * FROM role WHERE ? `, {
+            id: answer.department,
+        ***REMOVED***);
+      ***REMOVED***);
+  ***REMOVED***);
 ***REMOVED***
 
 ***REMOVED******REMOVED***
 
-***REMOVED******REMOVED***
+***REMOVED***
+***REMOVED***"SELECT * FROM employee", (err, results) => {
+    ***REMOVED***
+    ***REMOVED***
+  ***REMOVED***
+***REMOVED***
+***REMOVED***
+      ***REMOVED***
+***REMOVED***
+  ***REMOVED***
+***REMOVED***
+  ***REMOVED***
+          ***REMOVED***,
+        ***REMOVED***,
+***REMOVED***
+  ***REMOVED***
+      ***REMOVED***
+***REMOVED***
+  ***REMOVED***
+***REMOVED***
+  ***REMOVED***
+          ***REMOVED***,
+        ***REMOVED***,
+  ***REMOVED***
+***REMOVED***
+          answers.manager = results.filter(
+            (results) => results.id === answers.manager
+      ***REMOVED***[0].manager_id;
+  ***REMOVED***`UPDATE manager_id WHERE ? `, {
+            manager_id: answers.manager,
+        ***REMOVED***);
+        ***REMOVED***
+            answer.manager + "is now the manager of " + answer.employee
+      ***REMOVED***;
+        ***REMOVED***
+      ***REMOVED***);
+  ***REMOVED***);
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
