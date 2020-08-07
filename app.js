@@ -58,15 +58,6 @@
 ***REMOVED***
 ***REMOVED***
 
-// Render table using console.table
-function renderTable() {
-  connection.query("SELECT * FROM employee", function (err, results) {
-  ***REMOVED***
-    console.table(results);
-  ***REMOVED***
-***REMOVED***);
-***REMOVED***
-
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
@@ -246,7 +237,12 @@ function renderTable() {
 ***REMOVED******REMOVED***
 
 ***REMOVED***
-    renderTable();
+***REMOVED*** using console.table
+***REMOVED***"SELECT * FROM employee", function (err, results) {
+    ***REMOVED***
+***REMOVED***
+    ***REMOVED***
+  ***REMOVED***);
 ***REMOVED***
 
 ***REMOVED******REMOVED***
