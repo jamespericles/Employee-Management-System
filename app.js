@@ -115,6 +115,7 @@ function start() {
         "Delete a department.",
         "Delete a role.",
         "Delete an employee.",
+        "Exit.",
       ],
     })
     .then(function (answer) {
