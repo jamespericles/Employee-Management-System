@@ -294,7 +294,7 @@
 ***REMOVED***
   ***REMOVED***
 ***REMOVED***
-  ***REMOVED***
+    ***REMOVED*** result.first_name + " " + result.last_name
           ***REMOVED***,
         ***REMOVED***,
 ***REMOVED***
@@ -303,19 +303,25 @@
 ***REMOVED***
   ***REMOVED***
 ***REMOVED***
-  ***REMOVED***
+    ***REMOVED*** result.first_name + " " + result.last_name
           ***REMOVED***,
         ***REMOVED***,
   ***REMOVED***
 ***REMOVED***
-          answers.manager = results.filter(
-            (results) => results.id === answers.manager
+          let employeeId = results.filter(
+***REMOVED***
+***REMOVED***
+      ***REMOVED***[0].id;
+          let managerId = results.filter(
+***REMOVED***
+***REMOVED***
       ***REMOVED***[0].manager_id;
-  ***REMOVED***`UPDATE manager_id WHERE ? `, {
-            manager_id: answers.manager,
+  ***REMOVED***`UPDATE employee SET = ? WHERE ? `, {
+            id: employeeId,
+            manager_id: managerId,
         ***REMOVED***);
         ***REMOVED***
-            answer.manager + "is now the manager of " + answer.employee
+            answers.manager + "is now the manager of " + answers.employee
       ***REMOVED***;
         ***REMOVED***
       ***REMOVED***);
