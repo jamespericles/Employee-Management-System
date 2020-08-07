@@ -79,6 +79,7 @@
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
+***REMOVED***
   ***REMOVED***)
 ***REMOVED***
 ***REMOVED***
@@ -115,6 +116,10 @@
 ***REMOVED***
 
         case "Update employee managers.":
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
 
@@ -234,13 +239,6 @@
 
 ***REMOVED***
 ***REMOVED***
-    ***REMOVED***
-***REMOVED***
-    ***REMOVED***
-  ***REMOVED***);
-***REMOVED***
-
-***REMOVED***
 ***REMOVED***
     ***REMOVED***
 ***REMOVED***
@@ -249,7 +247,16 @@
 ***REMOVED***
 
 ***REMOVED***
-***REMOVED*** using console.table
+***REMOVED***
+***REMOVED***
+    ***REMOVED***
+***REMOVED***
+    ***REMOVED***
+  ***REMOVED***);
+***REMOVED***
+
+***REMOVED***
+***REMOVED***
 ***REMOVED***"SELECT * FROM employee", (err, results) => {
     ***REMOVED***
 ***REMOVED***
