@@ -59,10 +59,11 @@
 ***REMOVED***
 
 // Render table using console.table
-async function renderTable() {
+function renderTable() {
   connection.query("SELECT * FROM employee", function (err, results) {
   ***REMOVED***
     console.table(results);
+  ***REMOVED***
 ***REMOVED***);
 ***REMOVED***
 
