@@ -189,7 +189,7 @@
 ***REMOVED***
 
 ***REMOVED***
-***REMOVED***"SELECT * FROM role", function (err, results) {
+***REMOVED***
     ***REMOVED***
     ***REMOVED***
   ***REMOVED***
@@ -210,7 +210,7 @@
 ***REMOVED***
         ***REMOVED***,
   ***REMOVED***
-  ***REMOVED***
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
       ***REMOVED***[0].id;
@@ -221,7 +221,7 @@
 ***REMOVED***
 ***REMOVED***
           ***REMOVED***,
-  ***REMOVED***
+***REMOVED***
             ***REMOVED***
             ***REMOVED***"Data appended successfully");
   ***REMOVED***
@@ -238,7 +238,7 @@
 
 ***REMOVED***
 ***REMOVED*** using console.table
-***REMOVED***"SELECT * FROM employee", function (err, results) {
+***REMOVED***"SELECT * FROM employee", (err, results) => {
     ***REMOVED***
 ***REMOVED***
     ***REMOVED***
@@ -251,7 +251,25 @@
 
 ***REMOVED******REMOVED***
 
-***REMOVED******REMOVED***
+***REMOVED***
+***REMOVED***
+    ***REMOVED***
+    ***REMOVED***
+    ***REMOVED***
+  ***REMOVED***
+    ***REMOVED***
+          message: "What department would you like to delete?",
+***REMOVED*** results.map((result) => result.name),
+      ***REMOVED***)
+***REMOVED***
+  ***REMOVED***`DELETE FROM departments WHERE ? `, {
+            departments_name: answer.department,
+        ***REMOVED***);
+        ***REMOVED***"Successfully deleted " + answer.department);
+        ***REMOVED***
+      ***REMOVED***);
+  ***REMOVED***);
+***REMOVED***
 
 ***REMOVED******REMOVED***
 
