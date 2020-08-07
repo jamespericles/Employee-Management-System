@@ -263,7 +263,7 @@
       ***REMOVED***)
 ***REMOVED***
   ***REMOVED***`DELETE FROM departments WHERE ? `, {
-            departments_name: answer.department,
+***REMOVED***
         ***REMOVED***);
         ***REMOVED***"Successfully deleted " + answer.department);
         ***REMOVED***
