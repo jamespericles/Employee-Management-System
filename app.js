@@ -62,7 +62,6 @@
 async function renderTable() {
   connection.query("SELECT * FROM employee", function (err, results) {
   ***REMOVED***
-  ***REMOVED***"\n");
     console.table(results.first_name);
 ***REMOVED***);
 ***REMOVED***
@@ -260,6 +259,4 @@ async function renderTable() {
 ***REMOVED******REMOVED***
 
 ***REMOVED******REMOVED***
-
-  function exit() {***REMOVED***
 ***REMOVED***
