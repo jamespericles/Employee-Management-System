@@ -265,13 +265,33 @@
   ***REMOVED***`DELETE FROM departments WHERE ? `, {
 ***REMOVED***
         ***REMOVED***);
-        ***REMOVED***"Successfully deleted " + answer.department);
+        ***REMOVED***
+            "Successfully deleted the : " + answer.department + "department."
+      ***REMOVED***;
         ***REMOVED***
       ***REMOVED***);
   ***REMOVED***);
 ***REMOVED***
 
-***REMOVED******REMOVED***
+***REMOVED***
+***REMOVED***
+    ***REMOVED***
+    ***REMOVED***
+    ***REMOVED***
+***REMOVED***
+    ***REMOVED***
+          message: "What role would you like to delete?",
+***REMOVED*** results.map((result) => result.title),
+      ***REMOVED***)
+***REMOVED***
+  ***REMOVED***`DELETE FROM role WHERE ? `, {
+            title: answer.role,
+        ***REMOVED***);
+        ***REMOVED***"Successfully deleted the role of: " + answer.role);
+        ***REMOVED***
+      ***REMOVED***);
+  ***REMOVED***);
+***REMOVED***
 
 ***REMOVED******REMOVED***
 ***REMOVED***
