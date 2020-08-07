@@ -293,5 +293,30 @@
   ***REMOVED***);
 ***REMOVED***
 
-***REMOVED******REMOVED***
+***REMOVED***
+***REMOVED***"SELECT * FROM employee", (err, results) => {
+    ***REMOVED***
+    ***REMOVED***
+    ***REMOVED***
+***REMOVED***
+    ***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+        ***REMOVED***,
+      ***REMOVED***)
+***REMOVED***
+  ***REMOVED***`DELETE FROM employee WHERE ? `, {
+            first_name: answer.employee,
+        ***REMOVED***);
+        ***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+      ***REMOVED***;
+        ***REMOVED***
+      ***REMOVED***);
+  ***REMOVED***);
+***REMOVED***
 ***REMOVED***
