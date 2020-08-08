@@ -73,7 +73,8 @@
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-        "Update employee managers.",
+***REMOVED***
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
@@ -114,7 +115,11 @@
 ***REMOVED***
 ***REMOVED***
 
-        case "Update employee managers.":
+***REMOVED***
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
 
@@ -281,7 +286,55 @@
 ***REMOVED***
   // Not started
 ***REMOVED******REMOVED***
-  // Returning error related to mysql syntax
+
+***REMOVED***
+***REMOVED***"SELECT * FROM employee", (err, results) => {
+    ***REMOVED***
+    ***REMOVED***
+    ***REMOVED***
+***REMOVED***
+    ***REMOVED***
+          message: "What employee's role would you like to update?",
+***REMOVED***
+***REMOVED***
+      ***REMOVED***)
+        .then(() => {
+  ***REMOVED***"SELECT * FROM role", (err, results) => {
+          ***REMOVED***
+          ***REMOVED***
+          ***REMOVED***
+      ***REMOVED***
+          ***REMOVED***
+  ***REMOVED*** "What is this employee's role?",
+    ***REMOVED***
+            ***REMOVED***)
+      ***REMOVED***
+      ***REMOVED***
+      ***REMOVED***
+                    result.first_name + " " + result.last_name ===
+                    answers.employee[0].id
+            ***REMOVED***;
+                // let currentRole = results.filter(
+                //   (result) =>
+                //     result.first_name + " " + result.last_name ===
+                //     answers.employee[0].role_id)
+                let newRole = results.filter(
+      ***REMOVED***[0].id
+            ***REMOVED***;
+        ***REMOVED***
+                  `UPDATE employee SET role_id = ? WHERE id = ? `,
+                  [newRole, employeeID]
+            ***REMOVED***;
+              ***REMOVED***
+    ***REMOVED*** "'s new role is now " + answer.role
+            ***REMOVED***;
+            ***REMOVED***);
+          ***REMOVED***
+        ***REMOVED***);
+      ***REMOVED***);
+  ***REMOVED***);
+***REMOVED***
+
 ***REMOVED***
 ***REMOVED***"SELECT * FROM employee", (err, results) => {
     ***REMOVED***
@@ -307,17 +360,17 @@
         ***REMOVED***,
   ***REMOVED***
 ***REMOVED***
-          let employeeId = results.filter(
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
       ***REMOVED***[0].id;
-          let managerId = results.filter(
 ***REMOVED***
 ***REMOVED***
-      ***REMOVED***[0].manager_id;
+***REMOVED***
+      ***REMOVED***[0].id;
   ***REMOVED***`UPDATE employee SET manager_id = ? WHERE id = ? `, [
-            employeeId,
-            managerId,
+***REMOVED***
+***REMOVED***
     ***REMOVED***;
         ***REMOVED***
 ***REMOVED***
