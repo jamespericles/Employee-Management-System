@@ -26,5 +26,4 @@ VALUES
 ('Stanley', 'Hudson', 6),
 ('Darryl', 'Philbin', 3);
 
--- Sets all employees to be managed by Michael Scott if using the above seed
 UPDATE `employee_trackerDB`.`employee` SET `manager_id` = '1' WHERE (`id` > '1');
