@@ -291,6 +291,7 @@
 ***REMOVED***
       "SELECT DISTINCT * FROM employee, role",
 ***REMOVED***
+      ***REMOVED***"results: ", results);
       ***REMOVED***
       ***REMOVED***
     ***REMOVED***
@@ -311,6 +312,7 @@
           ***REMOVED***,
     ***REMOVED***
   ***REMOVED***
+          ***REMOVED***"answers: ", answers);
   ***REMOVED***
   ***REMOVED***
 ***REMOVED***
