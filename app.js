@@ -315,12 +315,12 @@
 ***REMOVED***
 ***REMOVED***
       ***REMOVED***[0].manager_id;
-  ***REMOVED***`UPDATE employee SET = ? WHERE ? `, {
-            id: employeeId,
-            manager_id: managerId,
-        ***REMOVED***);
+  ***REMOVED***`UPDATE employee SET manager_id = ? WHERE id = ? `, [
+            employeeId,
+            managerId,
+    ***REMOVED***;
         ***REMOVED***
-            answers.manager + "is now the manager of " + answers.employee
+***REMOVED***
       ***REMOVED***;
         ***REMOVED***
       ***REMOVED***);
