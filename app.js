@@ -212,7 +212,7 @@ function start() {
         );
       });
   }
-
+  // Need to somehow communicate with the role and department tables? filter functions?
   function addEmployee() {
     connection.query("SELECT * FROM role", (err, results) => {
       if (err) throw err;
@@ -280,7 +280,7 @@ function start() {
       start();
     });
   }
-
+  // Title, department, manager_id returned instead of manager, and salary not returned
   function viewEmployees() {
     connection.query(
       `SELECT 
@@ -305,7 +305,7 @@ function start() {
       }
     );
   }
-
+  // Need help continuing
   function budgetUtil() {
     connection.query(
       `SELECT departments.id, departments.name, role.salary as Budget
