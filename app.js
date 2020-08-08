@@ -136,7 +136,6 @@
     ***REMOVED***
   ***REMOVED***);
 
-  // Logic for adding a department
 ***REMOVED***
   ***REMOVED***
   ***REMOVED***
@@ -191,7 +190,7 @@
     ***REMOVED***;
     ***REMOVED***);
 ***REMOVED***
-
+  // Need to somehow communicate with the role and department tables? filter functions?
 ***REMOVED***
 ***REMOVED***
     ***REMOVED***
@@ -253,7 +252,7 @@
     ***REMOVED***
   ***REMOVED***);
 ***REMOVED***
-
+  // Title, department, manager_id returned instead of manager, and salary not returned
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***"SELECT * FROM employee", (err, results) => {
@@ -262,7 +261,7 @@
     ***REMOVED***
   ***REMOVED***);
 ***REMOVED***
-
+  // Need help continuing
 ***REMOVED***
 ***REMOVED***
     ***REMOVED***
@@ -280,9 +279,9 @@
       ***REMOVED***);
   ***REMOVED***);
 ***REMOVED***
-
+  // Not started
 ***REMOVED******REMOVED***
-
+  // Returning error related to mysql syntax
 ***REMOVED***
 ***REMOVED***"SELECT * FROM employee", (err, results) => {
     ***REMOVED***
