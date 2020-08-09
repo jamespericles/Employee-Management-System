@@ -463,8 +463,11 @@
 ***REMOVED*** results.map((result) => result.name),
       ***REMOVED***)
 ***REMOVED***
+          let departmentID = results.filter(
+***REMOVED*** result.name === answer.department
+      ***REMOVED***[0].id;
   ***REMOVED***`DELETE FROM departments WHERE ? `, {
-***REMOVED***
+            id: departmentID,
         ***REMOVED***);
         ***REMOVED***
             "Successfully deleted the " + answer.department + "department."
@@ -512,10 +515,6 @@
 ***REMOVED***
 ***REMOVED***
       ***REMOVED***[0].id;
-
-        ***REMOVED***"employeeID: ", employeeID);
-        ***REMOVED***answer.employee);
-
   ***REMOVED***`DELETE FROM employee WHERE ? `, {
 ***REMOVED***
         ***REMOVED***);
