@@ -212,7 +212,7 @@ function start() {
         );
       });
   }
-  // Need to somehow communicate with the role and department tables? filter functions?
+
   function addEmployee() {
     connection.query("SELECT * FROM role", (err, results) => {
       if (err) throw err;
@@ -543,7 +543,7 @@ function start() {
       }
     );
   }
-  // REVISIT, STOPPED WORKING
+
   function deleteEmployee() {
     connection.query("SELECT * FROM employee", (err, results) => {
       if (err) throw err;
