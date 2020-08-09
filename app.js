@@ -19,6 +19,8 @@
 ***REMOVED***
 
 ***REMOVED***
+
+***REMOVED***
 ***REMOVED***
 
 ***REMOVED***
@@ -289,9 +291,8 @@
 
 ***REMOVED***
 ***REMOVED***
-      "SELECT DISTINCT * FROM employee, role",
 ***REMOVED***
-      ***REMOVED***"results: ", results);
+***REMOVED***
       ***REMOVED***
       ***REMOVED***
     ***REMOVED***
@@ -300,7 +301,7 @@
         ***REMOVED***
 ***REMOVED*** "What employee's role would you like to update?",
     ***REMOVED***
-  ***REMOVED***
+***REMOVED***
       ***REMOVED*** result.first_name + " " + result.last_name
             ***REMOVED***,
           ***REMOVED***,
@@ -308,21 +309,19 @@
     ***REMOVED***
         ***REMOVED***
 ***REMOVED*** "What is this employee's new role?",
-  ***REMOVED***
+    ***REMOVED*** results[1].map((result) => result.title),
           ***REMOVED***,
     ***REMOVED***
   ***REMOVED***
-          ***REMOVED***"answers: ", answers);
-  ***REMOVED***
+          ***REMOVED***answers);
+***REMOVED***
   ***REMOVED***
 ***REMOVED***
         ***REMOVED***[0].id;
-            let newRole = results.filter(
+***REMOVED***
   ***REMOVED***
         ***REMOVED***[0].id;
-          ***REMOVED***employeeID, "employee");
-          ***REMOVED***newRole, "new role");
-    ***REMOVED***`UPDATE employee SET role_id = ? WHERE id = ? `, [
+    ***REMOVED***`UPDATE employee SET role_id = ? WHERE id = ?`, [
 ***REMOVED***
 ***REMOVED***
       ***REMOVED***;
@@ -421,7 +420,7 @@
       ***REMOVED***);
   ***REMOVED***);
 ***REMOVED***
-
+  // REVISIT, STOPPED WORKING
 ***REMOVED***
 ***REMOVED***"SELECT * FROM employee", (err, results) => {
     ***REMOVED***
