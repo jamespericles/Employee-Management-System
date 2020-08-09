@@ -39,10 +39,10 @@ Users are able to ...
 All functions update the appropriate rows and data within each table. Also when applicable, a query is run to return all current data from a table as a list of choices within the inquirer prompts. For example, when adding a new employee, the user is prompted what their first and last name is, and what the employee's role is. The choices for the role are only what roles currently exist in the database.
 
 Some cool things I want to draw attention to. I had a lot of trouble allowing the user to update the role of an employee. My plan was as follows...
-    1. Prompt the user with "What employee's role would you like to update?" and offer them a list of all employees that exist in the `employee` table
-    2. Prompt the user with "What is that employee's new role?" and offer them a list of all roles that exist in the `role` table
-    3. Take the information from both those questions and filter them to get their appropriate IDs within their respective tables (this prevents the user from having to use the IDs when selecting employees and roles even though I need that data for the next step)
-    4. Use those IDs to make the appropriate changes and return the user to the start
+  1. Prompt the user with "What employee's role would you like to update?" and offer them a list of all employees that exist in the `employee` table
+  2. Prompt the user with "What is that employee's new role?" and offer them a list of all roles that exist in the `role` table
+  3. Take the information from both those questions and filter them to get their appropriate IDs within their respective tables (this prevents the user from having to use the IDs when selecting employees and roles even though I need that data for the next step)
+  4. Use those IDs to make the appropriate changes and return the user to the start
 
 I first tried to nest a query to select all role from the `role` table after first querying all the employees from the `employee` table as choices for the first prompt. This ended up causing issues as there was no way to pass the answer from the first question into the next query that was within a `.then()` function.
 
