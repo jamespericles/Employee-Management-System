@@ -5,11 +5,11 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-***REMOVED***,
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jamespericles/Employee-Management-System.git"
-***REMOVED***,
+  },
   "keywords": [],
   "author": "James Pericles II",
   "license": "MIT",
@@ -21,9 +21,9 @@
     "figlet": "^1.5.0",
     "inquirer": "^6.2.1",
     "mysql": "^2.18.1"
-***REMOVED***,
+  },
   "bugs": {
     "url": "https://github.com/jamespericles/Employee-Management-System/issues"
-***REMOVED***,
+  },
   "homepage": "https://github.com/jamespericles/Employee-Management-System#readme"
-***REMOVED***
+}
