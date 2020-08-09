@@ -280,7 +280,7 @@ function start() {
       start();
     });
   }
-  // Title, department, manager_id returned instead of manager, and salary not returned
+
   function viewEmployees() {
     connection.query(
       `SELECT 
