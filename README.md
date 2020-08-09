@@ -33,6 +33,7 @@ Users are able to ...
   - employees 
   - departments 
   - roles 
+- view team's based on common manager's
 - update who is set as the manager of an employee 
 - update an employee's current role
 
