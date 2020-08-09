@@ -31,20 +31,12 @@ The Employee Management System is a CLI based application written in Javascript 
 Users are able to ...
 
 - add, view or delete
-<<<<<<< HEAD
   - employees
   - departments
   - roles
 - view team's based on common manager's
 - view how much each department is is spending on salary
 - update who is set as the manager of an employee
-=======
-  - employees 
-  - departments 
-  - roles 
-- view team's based on common manager's
-- update who is set as the manager of an employee 
->>>>>>> 2847987... updated to add new feature of viewing employee's by manager
 - update an employee's current role
 
 All functions update the appropriate rows and data within each table. Also when applicable, a query is run to return all current data from a table as a list of choices within the inquirer prompts. For example, when adding a new employee, the user is prompted what their first and last name is, and what the employee's role is. The choices for the role are only what roles currently exist in the database.

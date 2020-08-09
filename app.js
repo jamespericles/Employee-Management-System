@@ -305,7 +305,7 @@ function start() {
       }
     );
   }
-  // Need help continuing
+
   function budgetUtil() {
     connection.query(
       `SELECT departments.id, departments.name, role.salary as Budget
