@@ -113,7 +113,7 @@
 ***REMOVED***
 ***REMOVED***
 
-        case "View employees with the same manager":
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
 
@@ -326,16 +326,34 @@
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-  ***REMOVED*** results.first_name + " " + result.last_name
-        ***REMOVED***,
       ***REMOVED***)
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
       ***REMOVED***[0].manager_id;
-  ***REMOVED***`SELECT employee WHERE manager_id = ?`, [managerID]);
+  ***REMOVED***
+      ***REMOVED***
     ***REMOVED***
+    ***REMOVED***
+    ***REMOVED***
+          IFNULL(r.title, "No Data") AS "Title", 
+          IFNULL(d.name, "No Data") AS "Department", 
+    ***REMOVED***
+    ***REMOVED***
+      ***REMOVED***
+      ***REMOVED***
+      ***REMOVED***
+      ***REMOVED***
+      ***REMOVED***
+      ***REMOVED***
+          WHERE CONCAT(m.first_name," ",m.last_name) = ?
+          ORDER BY e.id`,
+
+            [managerID]
+      ***REMOVED***;
+          console.table(answer.manager + "'s Team: ", results);
+        ***REMOVED***
       ***REMOVED***);
   ***REMOVED***);
 ***REMOVED***
