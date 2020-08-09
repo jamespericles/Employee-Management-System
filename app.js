@@ -163,7 +163,9 @@
         ***REMOVED***,
 ***REMOVED***
           ***REMOVED***
-          ***REMOVED***"Data appended successfully");
+          ***REMOVED***
+***REMOVED***
+        ***REMOVED***;
 ***REMOVED***
           ***REMOVED***
         ***REMOVED***
@@ -195,7 +197,7 @@
         ***REMOVED***,
 ***REMOVED***
           ***REMOVED***
-          ***REMOVED***"Data appended successfully");
+          ***REMOVED***answer.role + " successfully add to roles.");
 ***REMOVED***
           ***REMOVED***
         ***REMOVED***
@@ -238,7 +240,13 @@
           ***REMOVED***,
 ***REMOVED***
             ***REMOVED***
-            ***REMOVED***"Data appended successfully");
+            ***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+          ***REMOVED***;
   ***REMOVED***
             ***REMOVED***
           ***REMOVED***
@@ -454,27 +462,30 @@
 
 ***REMOVED***
 ***REMOVED***
-    ***REMOVED***
-    ***REMOVED***
-    ***REMOVED***
-  ***REMOVED***
-    ***REMOVED***
-          message: "What department would you like to delete?",
-***REMOVED*** results.map((result) => result.name),
-      ***REMOVED***)
 ***REMOVED***
-          let departmentID = results.filter(
-***REMOVED*** result.name === answer.department
-      ***REMOVED***[0].id;
-  ***REMOVED***`DELETE FROM departments WHERE ? `, {
-            id: departmentID,
+***REMOVED***
+      ***REMOVED***
+      ***REMOVED***
+      ***REMOVED***
+    ***REMOVED***
+      ***REMOVED***
+***REMOVED***
+  ***REMOVED*** results[1].map((result) => result.name),
+        ***REMOVED***)
+  ***REMOVED***
+***REMOVED***
+  ***REMOVED*** result.name === answer.department
+        ***REMOVED***[0].id;
+    ***REMOVED***`DELETE FROM departments WHERE ? `, {
+***REMOVED***
+          ***REMOVED***);
+          ***REMOVED***
+***REMOVED***
+        ***REMOVED***;
+          ***REMOVED***
         ***REMOVED***);
-        ***REMOVED***
-            "Successfully deleted the " + answer.department + "department."
-      ***REMOVED***;
-        ***REMOVED***
-      ***REMOVED***);
-  ***REMOVED***);
+    ***REMOVED***
+***REMOVED***;
 ***REMOVED***
 
 ***REMOVED***
