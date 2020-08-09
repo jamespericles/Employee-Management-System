@@ -197,7 +197,7 @@
     ***REMOVED***;
     ***REMOVED***);
 ***REMOVED***
-  // Need to somehow communicate with the role and department tables? filter functions?
+
 ***REMOVED***
 ***REMOVED***
     ***REMOVED***
@@ -428,7 +428,7 @@
       ***REMOVED***);
   ***REMOVED***);
 ***REMOVED***
-  // REVISIT, STOPPED WORKING
+
 ***REMOVED***
 ***REMOVED***"SELECT * FROM employee", (err, results) => {
     ***REMOVED***
