@@ -403,7 +403,6 @@ function start() {
       // that existed within my database without them interacting negatively with one another.
       "SELECT * FROM employee; SELECT * FROM role",
       (err, results) => {
-        console.log("results: ", results);
         if (err) throw err;
         inquirer
           .prompt([
@@ -544,7 +543,7 @@ function start() {
       }
     );
   }
-
+  // REVISIT, STOPPED WORKING
   function deleteEmployee() {
     connection.query("SELECT * FROM employee", (err, results) => {
       if (err) throw err;
