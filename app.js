@@ -443,8 +443,16 @@
         ***REMOVED***,
       ***REMOVED***)
 ***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+      ***REMOVED***[0].id;
+
+        ***REMOVED***"employeeID: ", employeeID);
+        ***REMOVED***answer.employee);
+
   ***REMOVED***`DELETE FROM employee WHERE ? `, {
-            first_name: answer.employee,
+***REMOVED***
         ***REMOVED***);
         ***REMOVED***
 ***REMOVED***
