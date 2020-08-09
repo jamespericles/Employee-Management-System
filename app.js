@@ -6,6 +6,7 @@
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
@@ -296,24 +297,22 @@
     ***REMOVED***
 ***REMOVED***;
 ***REMOVED***
-  // Need help continuing
+
 ***REMOVED***
 ***REMOVED***
-    ***REMOVED***
-    ***REMOVED***
-    ***REMOVED***
+***REMOVED***departments.id, departments.name, role.salary as Budget
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+      ***REMOVED***
   ***REMOVED***
+      ***REMOVED***
     ***REMOVED***
-          message: "Which department budget would you like to view?",
-***REMOVED*** results.map((result) => result.name),
-      ***REMOVED***)
-***REMOVED***
-  ***REMOVED***`SELECT * FROM role WHERE ? `, {
-            id: answer.department,
-        ***REMOVED***);
-        ***REMOVED***results);
-      ***REMOVED***);
-  ***REMOVED***);
+***REMOVED***;
 ***REMOVED***
 
 ***REMOVED***
