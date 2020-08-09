@@ -259,14 +259,30 @@
     ***REMOVED***
   ***REMOVED***);
 ***REMOVED***
-  // Title, department, manager_id returned instead of manager, and salary not returned
+
 ***REMOVED***
 ***REMOVED***
-***REMOVED***"SELECT * FROM employee", (err, results) => {
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+      ***REMOVED***
+  ***REMOVED***
+      ***REMOVED***
     ***REMOVED***
-***REMOVED***
-    ***REMOVED***
-  ***REMOVED***);
+***REMOVED***;
 ***REMOVED***
   // Need help continuing
 ***REMOVED***
