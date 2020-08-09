@@ -331,29 +331,15 @@
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
-      ***REMOVED***[0].manager_id;
+      ***REMOVED***[0].role_id;
   ***REMOVED***
-      ***REMOVED***
-    ***REMOVED***
-    ***REMOVED***
-    ***REMOVED***
-          IFNULL(r.title, "No Data") AS "Title", 
-          IFNULL(d.name, "No Data") AS "Department", 
-    ***REMOVED***
-    ***REMOVED***
-      ***REMOVED***
-      ***REMOVED***
-      ***REMOVED***
-      ***REMOVED***
-      ***REMOVED***
-      ***REMOVED***
-          WHERE CONCAT(m.first_name," ",m.last_name) = ?
-          ORDER BY e.id`,
-
-            [managerID]
+      ***REMOVED**** FROM employee WHERE manager_id = ${managerID***REMOVED***`,
+***REMOVED***
+            ***REMOVED***
+***REMOVED***
+            ***REMOVED***
+          ***REMOVED***
       ***REMOVED***;
-          console.table(answer.manager + "'s Team: ", results);
-        ***REMOVED***
       ***REMOVED***);
   ***REMOVED***);
 ***REMOVED***
