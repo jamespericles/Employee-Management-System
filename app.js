@@ -55,7 +55,6 @@
     ***REMOVED***)
 ***REMOVED***
 ***REMOVED***
-***REMOVED***"connected as id " + connection.threadId + "\n");
 ***REMOVED***
 ***REMOVED***
 
