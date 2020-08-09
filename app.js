@@ -490,22 +490,25 @@
 
 ***REMOVED***
 ***REMOVED***
-    ***REMOVED***
-    ***REMOVED***
-    ***REMOVED***
 ***REMOVED***
-    ***REMOVED***
-          message: "What role would you like to delete?",
-***REMOVED*** results.map((result) => result.title),
-      ***REMOVED***)
 ***REMOVED***
-  ***REMOVED***`DELETE FROM role WHERE ? `, {
-            title: answer.role,
+      ***REMOVED***
+      ***REMOVED***
+      ***REMOVED***
+  ***REMOVED***
+      ***REMOVED***
+***REMOVED***
+  ***REMOVED*** results[1].map((result) => result.title),
+        ***REMOVED***)
+  ***REMOVED***
+    ***REMOVED***`DELETE FROM role WHERE ? `, {
+***REMOVED***
+          ***REMOVED***);
+          ***REMOVED***"Successfully deleted the role of: " + answer.role);
+          ***REMOVED***
         ***REMOVED***);
-        ***REMOVED***"Successfully deleted the role of: " + answer.role);
-        ***REMOVED***
-      ***REMOVED***);
-  ***REMOVED***);
+    ***REMOVED***
+***REMOVED***;
 ***REMOVED***
 
 ***REMOVED***
