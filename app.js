@@ -82,6 +82,7 @@
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
+***REMOVED***
   ***REMOVED***)
 ***REMOVED***
 ***REMOVED***
@@ -114,6 +115,10 @@
 ***REMOVED***
 
         case "View employees with the same manager":
+***REMOVED***
+***REMOVED***
+
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
 
@@ -309,6 +314,50 @@
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
+      ***REMOVED***
+      ***REMOVED***
+    ***REMOVED***
+  ***REMOVED***
+    ***REMOVED***
+        ***REMOVED***
+***REMOVED***
+***REMOVED***
+    ***REMOVED*** results[0].map((result) => result.title),
+          ***REMOVED***,
+  ***REMOVED***
+      ***REMOVED***
+        ***REMOVED***
+***REMOVED*** "What department does this role belong to?",
+    ***REMOVED*** results[1].map((result) => result.name),
+          ***REMOVED***,
+    ***REMOVED***
+  ***REMOVED***
+***REMOVED***
+  ***REMOVED***
+        ***REMOVED***[0].id;
+***REMOVED***
+  ***REMOVED*** result.name === answers.department
+        ***REMOVED***[0].id;
+    ***REMOVED***`UPDATE role set department_id = ? WHERE id = ?`, [
+***REMOVED***
+***REMOVED***
+      ***REMOVED***;
+          ***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+        ***REMOVED***;
+          ***REMOVED***
+        ***REMOVED***);
+    ***REMOVED***
+***REMOVED***;
+***REMOVED***
+
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
 ***REMOVED***
 ***REMOVED***
 ***REMOVED***
@@ -418,7 +467,7 @@
 ***REMOVED***
         ***REMOVED***);
         ***REMOVED***
-            "Successfully deleted the : " + answer.department + "department."
+            "Successfully deleted the " + answer.department + "department."
       ***REMOVED***;
         ***REMOVED***
       ***REMOVED***);
