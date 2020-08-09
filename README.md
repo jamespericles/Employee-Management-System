@@ -28,7 +28,13 @@
 
 The Employee Management System is a CLI based application written in Javascript utilizing node, inquirer and mySQL on the backend to provide the user with a large array of possible functions. The mySQL database schema has a table for departments, roles, and employees that allow for the user to manipulate the data within each table in several ways.
 
-Users are able to ... - add, view or delete the following from the database - employees - departments - roles - update who is set as the manager of an employee - update an employee's current role
+Users are able to ...
+- add, view or delete
+  - employees 
+  - departments 
+  - roles 
+- update who is set as the manager of an employee 
+- update an employee's current role
 
 All functions update the appropriate rows and data within each table. Also when applicable, a query is run to return all current data from a table as a list of choices within the inquirer prompts. For example, when adding a new employee, the user is prompted what their first and last name is, and what the employee's role is. The choices for the role are only what roles currently exist in the database.
 
