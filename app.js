@@ -311,11 +311,34 @@
   ***REMOVED***`SELECT * FROM role WHERE ? `, {
             id: answer.department,
         ***REMOVED***);
+        ***REMOVED***results);
       ***REMOVED***);
   ***REMOVED***);
 ***REMOVED***
-  // Not started
-***REMOVED******REMOVED***
+
+***REMOVED***
+***REMOVED***"SELECT * FROM employee", (err, results) => {
+    ***REMOVED***
+    ***REMOVED***
+    ***REMOVED***
+***REMOVED***
+    ***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+  ***REMOVED*** results.first_name + " " + result.last_name
+        ***REMOVED***,
+      ***REMOVED***)
+***REMOVED***
+***REMOVED***
+***REMOVED***
+***REMOVED***
+      ***REMOVED***[0].manager_id;
+  ***REMOVED***`SELECT employee WHERE manager_id = ?`, [managerID]);
+    ***REMOVED***
+      ***REMOVED***);
+  ***REMOVED***);
+***REMOVED***
 
 ***REMOVED***
 ***REMOVED***
