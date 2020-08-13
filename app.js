@@ -1,6 +1,5 @@
 const mysql = require("mysql");
 const inquirer = require("inquirer");
-<<<<<<< HEAD
 const chalk = require("chalk");
 const clear = require("clear");
 const figlet = require("figlet");
@@ -39,27 +38,10 @@ let connection = mysql.createConnection({
   // Your password
   password: process.env.DB_PASS,
   database: process.env.DB_NAME,
-=======
-const consoleTables = require("console.table");
-
-let connection = mysql.createConnection({
-  host: "localhost",
-
-  // Your port; if not 3306
-  port: 3306,
-
-  // Your username
-  user: "root",
-
-  // Your password
-  password: "**REDACTED**",
-  database: "employee_trackerDB",
->>>>>>> 8e8e75b... created connection to database
 });
 
 connection.connect(function (err) {
   if (err) throw err;
-<<<<<<< HEAD
   clear();
   console.log(
     chalk.blueBright(
@@ -637,6 +619,3 @@ function start() {
     });
   }
 }
-=======
-});
->>>>>>> 8e8e75b... created connection to database
