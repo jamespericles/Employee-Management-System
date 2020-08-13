@@ -16,14 +16,6 @@ const validateNumber = async (input) => {
   return true;
 };
 
-// Function to validate for salaries
-const validateNumber = async (input) => {
-  if (isNaN(input) == true) {
-    return "Please input a number.";
-  }
-  return true;
-};
-
 let connection = mysql.createConnection({
   multipleStatements: true,
 
@@ -349,50 +341,6 @@ function start() {
           );
         });
     });
-  }
-
-  function roleUpdate() {
-    connection.query(
-      "SELECT * FROM role; SELECT * FROM departments",
-      (err, results) => {
-        if (err) throw err;
-        inquirer
-          .prompt([
-            {
-              name: "role",
-              type: "list",
-              message:
-                "What role would you like to assign to a new department?",
-              choices: () => results[0].map((result) => result.title),
-            },
-            {
-              name: "department",
-              type: "list",
-              message: "What department does this role belong to?",
-              choices: () => results[1].map((result) => result.name),
-            },
-          ])
-          .then((answers) => {
-            let roleID = results[0].filter(
-              (result) => result.title === answers.role
-            )[0].id;
-            let newDepartment = results[1].filter(
-              (result) => result.name === answers.department
-            )[0].id;
-            connection.query(`UPDATE role set department_id = ? WHERE id = ?`, [
-              newDepartment,
-              roleID,
-            ]);
-            console.log(
-              answers.role +
-                " now belongs to the " +
-                answers.department +
-                " department."
-            );
-            start();
-          });
-      }
-    );
   }
 
   function roleUpdate() {
