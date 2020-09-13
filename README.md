@@ -113,7 +113,7 @@ Anyone is welcome to iterate on this project. If you have any questions related 
 
 ### <a name="Questions"></a>Questions
 
-I can be reached at james.pericles@aol.com with any questions regarding this project.
+I can be reached at jamesspericles@gmail.com with any questions regarding this project.
 
 ### <a name="Github"></a>Github
 
