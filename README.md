@@ -72,7 +72,7 @@ Overall this project was quite challenging but incredibly rewarding and I'm prou
 
 ![Following the prompts](https://github.com/jamespericles/Employee-Management-System/blob/master/screenshots/following_the_prompts.png)
 
-Demo on [youtube](https://youtu.be/LE_2kib0kuw).
+Demo on [Youtube](https://youtu.be/LE_2kib0kuw).
 
 ### <a name="Installation"></a>Installation
 
@@ -117,5 +117,5 @@ I can be reached at jamesspericles@gmail.com with any questions regarding this p
 
 ### <a name="Github"></a>Github
 
-- (My github homepage)[https://github.com/jamespericles] 
-- (This project's repo)[https://github.com/jamespericles/Employee-Management-System]
+- [My github homepage](https://github.com/jamespericles) 
+- [This project's repo](https://github.com/jamespericles/Employee-Management-System)
