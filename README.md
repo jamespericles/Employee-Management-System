@@ -30,7 +30,7 @@ The Employee Management System is a CLI based application written in Javascript 
 
 Users are able to ...
 
-- add, view or delete
+- add, view or delete...
   - employees
   - departments
   - roles
