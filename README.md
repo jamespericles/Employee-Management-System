@@ -30,7 +30,7 @@ The Employee Management System is a CLI based application written in Javascript 
 
 Users are able to ...
 
-- add, view or delete
+- add, view or delete...
   - employees
   - departments
   - roles
@@ -68,11 +68,11 @@ Overall this project was quite challenging but incredibly rewarding and I'm prou
 
 ### <a name="Screenshots"></a>Screenshots
 
-[Start Screen](https://github.com/jamespericles/Employee-Management-System/blob/master/screenshots/start_screen.png)
+![Start Screen](https://github.com/jamespericles/Employee-Management-System/blob/master/screenshots/start_screen.png)
 
-[Following the prompts](https://github.com/jamespericles/Employee-Management-System/blob/master/screenshots/following_the_prompts.png)
+![Following the prompts](https://github.com/jamespericles/Employee-Management-System/blob/master/screenshots/following_the_prompts.png)
 
-Demo on [youtube](https://youtu.be/LE_2kib0kuw)
+Demo on [Youtube](https://youtu.be/LE_2kib0kuw).
 
 ### <a name="Installation"></a>Installation
 
@@ -117,5 +117,5 @@ I can be reached at jamesspericles@gmail.com with any questions regarding this p
 
 ### <a name="Github"></a>Github
 
-- (My github homepage)[https://github.com/jamespericles] 
-- (This project's repo)[https://github.com/jamespericles/Employee-Management-System]
+- [My github homepage](https://github.com/jamespericles) 
+- [This project's repo](https://github.com/jamespericles/Employee-Management-System)
