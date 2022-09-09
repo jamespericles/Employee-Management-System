@@ -35,7 +35,7 @@ Users are able to ...
   - departments
   - roles
 - view team's based on common manager's
-- view how much each department is is spending on salary
+- view how much each department is spending on salary
 - update who is set as the manager of an employee
 - update an employee's current role
 
